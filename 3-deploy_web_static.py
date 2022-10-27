@@ -11,8 +11,7 @@ Creates and distributes an archive to my web servers, using the function deploy
 from fabric.api import local, put, run, env
 from datetime import datetime
 import os
-env.hosts = ['3.235.25.172', '54.164.176.89']
-
+env.hosts = ['54.174.69.226', '107.20.160.206']
 
 def do_pack():
     """
